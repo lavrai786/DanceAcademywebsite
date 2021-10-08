@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title lav dance acadmy
+    block scripts 
+    block style
+      
+  body
+    nav#navbar
+        ul
+            div#logo
+               img(src="/static/images/logo.png")
+               | HDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About] 
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+    div.box
+      span#time         
+
+    block content
+    footer#footer
+      |Copyright © 2020 lavdanceacademy.com | All rights reserved  
